@@ -1,0 +1,23 @@
+{
+  "name": "View CSP",
+  "version": "1",
+  "manifest_version": 2,
+  
+  "description": "View CSP headesr",
+  
+  "permissions": ["http://*/*", "<all_urls>", "webRequest", "webRequestBlocking", "storage"],
+  
+  "icons": {
+    "48": "icons/test.png"
+  },
+  
+"background": {
+      "scripts": [ "block.js" ]
+   },
+
+   "browser_action": {
+    "default_icon": "icons/test.png",
+    "default_popup": "popup.html"
+  }
+
+}

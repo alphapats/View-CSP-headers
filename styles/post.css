@@ -1,0 +1,9 @@
+body{
+   width:400px;
+   height:400px;
+   background-color: cyan;
+   font-size: 100%;
+   border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
